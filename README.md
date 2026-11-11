@@ -3,7 +3,8 @@
 
 An end-to-end project focused on evaluating speech recognition models for Egyptian Arabic and building a long-form transcription pipeline.
 
-<img width="1919" height="841" alt="image" src="https://github.com/user-attachments/assets/5601ea26-fc1a-42ff-b126-94e055b405af" />
+<img width="1868" height="808" alt="image" src="https://github.com/user-attachments/assets/1fed89ed-7f3a-428a-8f1c-d43b7940e67f" />
+
 
 
 ## Tech Stack
