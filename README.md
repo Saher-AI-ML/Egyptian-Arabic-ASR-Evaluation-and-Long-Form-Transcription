@@ -99,4 +99,4 @@ Execute the cells **from top to bottom**, allowing each cell to finish before mo
 
 ---
 
-**The goal:** Build and evaluate practical speech AI systems for Egyptian Arabic, with measurable performance and an end-to-end transcription workflow.
+
