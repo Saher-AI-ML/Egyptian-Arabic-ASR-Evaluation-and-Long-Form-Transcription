@@ -1,0 +1,4 @@
+Model,WER,Norm WER,CER,Norm CER,Loops,RTF,Dropped,Source
+Whisper Small,0.653,0.595,0.29,0.25,0,0.058,,previous
+Whisper Large-v3,0.501,0.363,0.191,0.159,0,0.156,,previous
+Large-v3 + Prompt,0.502,0.356,0.187,0.155,0,0.169,,previous
