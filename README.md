@@ -13,16 +13,19 @@ An end-to-end project focused on evaluating speech recognition models for Egypti
 
 ## ASR Benchmark Results
 
-Evaluated six ASR models on **60 Egyptian Arabic audio clips** from the `severo/Egyptian-ASR-MGB-3` dataset.
+Evaluated 9 ASR models on **60 Egyptian Arabic audio clips** from the `severo/Egyptian-ASR-MGB-3` dataset.
 
-| Model | WER ↓ | Norm. WER ↓ | Norm. CER ↓ | RTF ↓ | Loops |
-|---|---:|---:|---:|---:|---:|
-| Whisper Large-v3 (Baseline) | 51.32% | 39.98% | 22.75% | 0.216 | 2 |
-| QwenCleo-ASR | 50.94% | 33.85% | 18.79% | 0.248 | 0 |
-| Whisper-v3-turbo Egyptian CS | 55.36% | 42.65% | 21.40% | 0.060 | 2 |
-| EgypTalk-ASR-v2 | 54.59% | **27.75%** | **15.27%** | **0.009** | 2 |
-| Whisper-v3 Arabic Dialectal v2 | 48.29% | 34.51% | 18.57% | 0.236 | 0 |
-| **Jais-ASR** | **38.76%** | 28.55% | 15.74% | 0.181 | 0 |
+| Model                             | WER ↓  | Norm. WER ↓ | Norm. CER ↓ | RTF ↓ | Loops |
+| --------------------------------- | ------ | ----------- | ----------- | ----- | ----- |
+| Whisper Small                     | 65.30% | 59.50%      | 25.00%      | 0.058 | 0     |
+| Whisper Large-v3                  | 50.10% | 36.30%      | 15.90%      | 0.156 | 0     |
+| Whisper Large-v3 + Prompt         | 50.20% | 35.60%      | 15.50%      | 0.169 | 0     |
+| Whisper Large-v3 (Baseline Rerun) | 51.32% | 39.98%      | 22.75%      | 0.216 | 2     |
+| QwenCleo-ASR                      | 50.94% | 33.85%      | 18.79%      | 0.248 | 0     |
+| Whisper-v3-turbo Egyptian CS      | 55.36% | 42.65%      | 21.40%      | 0.060 | 2     |
+| EgypTalk-ASR-v2                   | 54.59% | 27.75%      | 15.27%      | 0.009 | 2     |
+| Whisper-v3 Arabic Dialectal v2    | 48.29% | 34.51%      | 18.57%      | 0.236 | 0     |
+| Jais-ASR                          | 38.76% | 28.55%      | 15.74%      | 0.181 | 0     |
 
 **Key findings**
 - Jais-ASR achieved the lowest raw WER at **38.76%**.
