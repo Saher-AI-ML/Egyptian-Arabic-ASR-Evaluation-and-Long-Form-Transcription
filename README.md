@@ -28,7 +28,7 @@ Evaluated 9 ASR models on **60 Egyptian Arabic audio clips** from the `severo/Eg
 | Jais-ASR                          | 38.76% | 28.55%      | 15.74%      | 0.181 | 
 
 **Key findings**
-- Jais-ASR achieved the lowest normalized WER at **28.55%**.
+- Jais-ASR achieved the lowest raw WER at **38.76%**.
 - EgypTalk-ASR-v2 achieved the lowest normalized WER and CER.
 - EgypTalk-ASR-v2 recorded the lowest RTF in this benchmark.
 - All six models processed the 60-clip evaluation set.
